@@ -3,6 +3,7 @@
 readonly USER_NAME="Marco Alessandra (marcolssndr)"
 readonly USER_EMAIL="alessandramarcoo00@gmail.com"
 
+
 install_and_configure_git() {
     echo "### Install and configure git"
     apk add git git-doc nano tig
