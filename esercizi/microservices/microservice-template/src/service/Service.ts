@@ -1,7 +1,3 @@
-import colorConverter from 'color-convert'
+var rgb2hex = require('rgb2hex');
 
-export function convert(color: ColorModel): ColorModel {
-    const colorToConvert: ColorModel = {};
-    const convertedColor = colorConverter;
-    return {} as ColorModel;
-}
+console.log(rgb2hex('rgb(210,43,2525)'));
